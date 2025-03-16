@@ -23,7 +23,7 @@
 						<span class="inline-flex items-center rounded-full bg-slate-800 px-3 py-1 text-sm">
 							<span class="font-medium">{classInfo.name}</span>
 							{#if classInfo.level}
-								<span class="ml-1 text-green-400">Lvl {classInfo.level}</span>
+								<span class="ml-1 text-purple-400">Lvl {classInfo.level}</span>
 							{/if}
 							{#if classInfo.subclass}
 								<span class="ml-1 text-purple-400">({classInfo.subclass})</span>
@@ -111,11 +111,11 @@
 			<div class="mt-8 border-t-2 border-slate-600 pt-4">
 				<a
 					href="/"
-					class="inline-flex items-center rounded-lg bg-slate-800 px-4 py-2 text-green-400 transition-all duration-300 hover:bg-slate-600 hover:text-green-300 hover:shadow-md hover:shadow-green-900/20"
+					class="inline-flex items-center rounded-lg bg-slate-800 px-4 py-2 text-white transition-all duration-300 hover:bg-slate-600 hover:text-green-300 hover:shadow-md hover:shadow-green-900/20"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="mr-2 h-5 w-5"
+						class="mr-2 h-5 w-5 text-green-400"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>
